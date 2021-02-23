@@ -11,6 +11,9 @@
 		CA31398A25E42ABE00EAACBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA31398925E42ABE00EAACBC /* ContentView.swift */; };
 		CA31398C25E42AC000EAACBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA31398B25E42AC000EAACBC /* Assets.xcassets */; };
 		CA31398F25E42AC000EAACBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA31398E25E42AC000EAACBC /* Preview Assets.xcassets */; };
+		CA31399825E4396200EAACBC /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA31399725E4396200EAACBC /* DataModel.swift */; };
+		CA31399B25E443AC00EAACBC /* SongListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA31399A25E443AC00EAACBC /* SongListViewModel.swift */; };
+		CA31399E25E4685600EAACBC /* ArtworkLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA31399D25E4685600EAACBC /* ArtworkLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		CA31398B25E42AC000EAACBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA31398E25E42AC000EAACBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA31399025E42AC000EAACBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA31399725E4396200EAACBC /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		CA31399A25E443AC00EAACBC /* SongListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListViewModel.swift; sourceTree = "<group>"; };
+		CA31399D25E4685600EAACBC /* ArtworkLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				CA31398B25E42AC000EAACBC /* Assets.xcassets */,
 				CA31399025E42AC000EAACBC /* Info.plist */,
 				CA31398D25E42AC000EAACBC /* Preview Content */,
+				CA31399725E4396200EAACBC /* DataModel.swift */,
+				CA31399A25E443AC00EAACBC /* SongListViewModel.swift */,
+				CA31399D25E4685600EAACBC /* ArtworkLoader.swift */,
 			);
 			path = musicSearchAMAPI;
 			sourceTree = "<group>";
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA31398A25E42ABE00EAACBC /* ContentView.swift in Sources */,
+				CA31399B25E443AC00EAACBC /* SongListViewModel.swift in Sources */,
+				CA31399E25E4685600EAACBC /* ArtworkLoader.swift in Sources */,
 				CA31398825E42ABE00EAACBC /* musicSearchAMAPIApp.swift in Sources */,
+				CA31399825E4396200EAACBC /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
